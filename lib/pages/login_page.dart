@@ -22,7 +22,11 @@ class LoginPage extends StatelessWidget {
                 
                 Logo( titulo: 'Messenger Chat',),
                 _Form(),
-                Labels(ruta: 'register', titulo: '¿No tienes cuenta?', subTitulo: 'Crea una ahora!',),
+                Labels(
+                  ruta: 'register',
+                  titulo: '¿No tienes cuenta?',
+                  subTitulo: 'Crea una ahora!',
+                ),
                 Text('Terminos y condiciones de uso.', style: TextStyle( fontWeight: FontWeight.w200),)
                 
               ],
